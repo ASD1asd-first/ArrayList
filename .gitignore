@@ -1,2 +1,21 @@
-# 忽略 CMake 构建目录
+# 构建目录
 build/
+cmake-build-*/
+out/
+
+# CMake生成文件
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# 编译产物
+*.exe
+*.o
+*.so
+*.dll
+
+# VS Code临时文件
+.vscode/
+*.code-workspace
