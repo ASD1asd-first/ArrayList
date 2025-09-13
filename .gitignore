@@ -1,0 +1,2 @@
+# 忽略 CMake 构建目录
+build/
